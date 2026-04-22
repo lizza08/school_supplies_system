@@ -1,6 +1,6 @@
 <?php
 include 'database.php';
-
+// asdfpoisdfjalsdkfjalskdjfl
 $result = $conn->query("SELECT * FROM supplies");
 ?>
 
@@ -14,10 +14,12 @@ $result = $conn->query("SELECT * FROM supplies");
             background-repeat: no-repeat;
             background-size: cover;
             overflow: auto;
+
         }
         table {   
             margin-left: auto; 
             margin-right: auto; 
+            
         }  
     </style>
 </head>
