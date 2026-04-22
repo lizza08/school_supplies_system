@@ -1,0 +1,9 @@
+
+body {
+    background-color: rgb(42, 206, 184);
+}
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
