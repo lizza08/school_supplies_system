@@ -5,10 +5,10 @@ if(isset($_POST['submit'])){
 
 $item = $_POST['item'];
 $category = $_POST['category'];
-$amount_sold = $_POST['amount_sold'];
+$amount_sold = $_POST['amount_sold']; //Automate amount
 $price = $_POST['price'];
-$quantity = $_POST['quantity'];
-$revenue = $_POST['revenue']; //Remove revenue
+$quantity = $_POST['quantity']; //Automate price
+$revenue = $_POST['revenue']; //Automate revenue
 
 
 $sql = "INSERT INTO supplies (item, category, amount_sold, price, quantity, revenue)
