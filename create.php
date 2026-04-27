@@ -8,7 +8,7 @@ $category = $_POST['category'];
 $amount_sold = $_POST['amount_sold'];
 $price = $_POST['price'];
 $quantity = $_POST['quantity'];
-$revenue = $_POST['revenue'];
+$revenue = $_POST['revenue']; //Remove revenue
 
 
 $sql = "INSERT INTO supplies (item, category, amount_sold, price, quantity, revenue)
