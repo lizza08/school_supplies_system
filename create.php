@@ -7,7 +7,7 @@ $item = $_POST['item'];
 $category = $_POST['category'];
 $amount_sold = $_POST['amount_sold']; //Automate amount
 $price = $_POST['price'];
-$quantity = $_POST['quantity']; //Automate price
+$quantity = $_POST['quantity']; //Automate quantity
 $revenue = $_POST['revenue']; //Automate revenue
 
 
