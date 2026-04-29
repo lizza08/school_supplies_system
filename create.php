@@ -3,7 +3,7 @@ include 'database.php';
 
 if(isset($_POST['submit'])){
 
-$item = $_POST['item'];
+$item = $_POST['item']; //fuse item and category
 $category = $_POST['category'];
 $amount_sold = $_POST['amount_sold']; //Automate amount
 $price = $_POST['price'];
@@ -20,9 +20,7 @@ header("Location: index.php");
 }
 ?>
 
-<h2>Add Item pencil case2
-    
-</h2>
+<h2>Add Item</h2>
 
 <form method="POST">
 
