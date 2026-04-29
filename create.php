@@ -20,7 +20,9 @@ header("Location: index.php");
 }
 ?>
 
-<h2>Add Item pencil</h2>
+<h2>Add Item pencil case2
+    
+</h2>
 
 <form method="POST">
 
